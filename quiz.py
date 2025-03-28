@@ -5,25 +5,30 @@ import random
 # Quizfragen und Antworten
 quiz_fragen = [
     {
-        "frage": "Was bewirkt wrap='none' in einem Tkinter Text-Widget?",
-        "optionen": ["A) Aktiviert automatische Zeilenumbrüche", "B) Deaktiviert automatische Zeilenumbrüche", "C) Ermöglicht Umbruch bei Leerzeichen", "D) Schneidet Text am Rand ab"],
+        "frage": "Was bewirkt print()?",
+        "optionen": ["A) Gibt den Text in () aus.", "B) Deaktiviert automatische Zeilenumbrüche", "C) Ermöglicht Umbruch bei Leerzeichen", "D) Schneidet Text am Rand ab"],
+        "antwort": "A"
+    },
+    {
+        "frage": "Welches Modul wird für GUI in Python verwendet?",
+        "optionen": ["A) cowsay", "B) pandas", "C) pyqrcode", "D) tkinter"],
+        "antwort": "D"
+    },
+    {
+        "frage": "Welche Funktion wird für Benutzereingaben verwendet?",
+        "optionen": ["A) open()", "B) input()", "C) print()", "D) read()"],
         "antwort": "B"
     },
     {
-        "frage": "Welches Modul wird für QR-Codes in Python verwendet?",
-        "optionen": ["A) qrtools", "B) qrcode", "C) pyqrcode", "D) barcode"],
+        "frage": "Wie setzt man die Fenstergröße in Tkinter auf 500x300 Pixel?",
+        "optionen": ["A) root.resize(500, 300)", "B) root.dimensions(500, 300)", "C) root.geometry('500x300')", "D) root.size('500x300')"],
         "antwort": "C"
     },
     {
-        "frage": "Welche Funktion speichert ein QR-Code als PNG?",
-        "optionen": ["A) qr.save()", "B) qr.generate()", "C) qr.png()", "D) qr.export()"],
-        "antwort": "C"
+        "frage": "Wie kannst du mit pip das Paket pandas aus dem Python Package Index einrichten?",
+        "optionen": ["A) pip get pandas", "B) pip add pandas", "C) pip import pandas", "D) pip install pandas"],
+        "antwort": "D"
     },
-    {
-        "frage": "Welches Widget wird für Scrollbars in Tkinter verwendet?",
-        "optionen": ["A) ScrollFrame", "B) ttk.Scroll", "C) tk.Scrollbar", "D) tk.Scroll"],
-        "antwort": "C"
-    }
 ]
 
 # Initialisierung der App
