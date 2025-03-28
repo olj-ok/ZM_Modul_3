@@ -5,25 +5,20 @@ import random
 # Quizfragen und Antworten
 quiz_fragen = [
     {
-        "frage": "Was bewirkt wrap='none' in einem Tkinter Text-Widget?",
-        "optionen": ["A) Aktiviert automatische Zeilenumbrüche", "B) Deaktiviert automatische Zeilenumbrüche", "C) Ermöglicht Umbruch bei Leerzeichen", "D) Schneidet Text am Rand ab"],
+        "frage": "Was bewirkt print()?",
+        "optionen": ["A) Gibt den Text in () aus.", "B) Deaktiviert automatische Zeilenumbrüche", "C) Ermöglicht Umbruch bei Leerzeichen", "D) Schneidet Text am Rand ab"],
         "antwort": "B"
     },
     {
-        "frage": "Welches Modul wird für QR-Codes in Python verwendet?",
-        "optionen": ["A) qrtools", "B) qrcode", "C) pyqrcode", "D) barcode"],
+        "frage": "Welches Modul wird für GUI in Python verwendet?",
+        "optionen": ["A) tkinter", "B) qrcode", "C) pyqrcode", "D) barcode"],
         "antwort": "C"
     },
     {
-        "frage": "Welche Funktion speichert ein QR-Code als PNG?",
-        "optionen": ["A) qr.save()", "B) qr.generate()", "C) qr.png()", "D) qr.export()"],
+        "frage": "Welche Funktion wird für Benutzereingaben verwendet?",
+        "optionen": ["A) input()", "B) qr.generate()", "C) qr.png()", "D) qr.export()"],
         "antwort": "C"
     },
-    {
-        "frage": "Welches Widget wird für Scrollbars in Tkinter verwendet?",
-        "optionen": ["A) ScrollFrame", "B) ttk.Scroll", "C) tk.Scrollbar", "D) tk.Scroll"],
-        "antwort": "C"
-    }
 ]
 
 # Initialisierung der App
