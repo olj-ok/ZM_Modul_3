@@ -11,13 +11,13 @@ quiz_fragen = [
     },
     {
         "frage": "Welches Modul wird für GUI in Python verwendet?",
-        "optionen": ["A) tkinter", "B) pandas", "C) pyqrcode", "D) barcode"],
-        "antwort": "A"
+        "optionen": ["A) cowsay", "B) pandas", "C) pyqrcode", "D) tkinter"],
+        "antwort": "D"
     },
     {
         "frage": "Welche Funktion wird für Benutzereingaben verwendet?",
-        "optionen": ["A) input()", "B) qr.generate()", "C) print()", "D) qr.export()"],
-        "antwort": "A"
+        "optionen": ["A) open()", "B) input()", "C) print()", "D) read()"],
+        "antwort": "B"
     },
     {
         "frage": "Wie setzt man die Fenstergröße in Tkinter auf 500x300 Pixel?",
