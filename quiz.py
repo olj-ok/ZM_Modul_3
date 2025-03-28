@@ -7,17 +7,27 @@ quiz_fragen = [
     {
         "frage": "Was bewirkt print()?",
         "optionen": ["A) Gibt den Text in () aus.", "B) Deaktiviert automatische Zeilenumbrüche", "C) Ermöglicht Umbruch bei Leerzeichen", "D) Schneidet Text am Rand ab"],
-        "antwort": "B"
+        "antwort": "A"
     },
     {
         "frage": "Welches Modul wird für GUI in Python verwendet?",
-        "optionen": ["A) tkinter", "B) qrcode", "C) pyqrcode", "D) barcode"],
-        "antwort": "C"
+        "optionen": ["A) tkinter", "B) pandas", "C) pyqrcode", "D) barcode"],
+        "antwort": "A"
     },
     {
         "frage": "Welche Funktion wird für Benutzereingaben verwendet?",
-        "optionen": ["A) input()", "B) qr.generate()", "C) qr.png()", "D) qr.export()"],
+        "optionen": ["A) input()", "B) qr.generate()", "C) print()", "D) qr.export()"],
+        "antwort": "A"
+    },
+    {
+        "frage": "Wie setzt man die Fenstergröße in Tkinter auf 500x300 Pixel?",
+        "optionen": ["A) root.resize(500, 300)", "B) root.dimensions(500, 300)", "C) root.geometry('500x300')", "D) root.size('500x300')"],
         "antwort": "C"
+    },
+    {
+        "frage": "Wie kannst du mit pip das Paket pandas aus dem Python Package Index einrichten?",
+        "optionen": ["A) pip get pandas", "B) pip add pandas", "C) pip import pandas", "D) pip install pandas"],
+        "antwort": "D"
     },
 ]
 
