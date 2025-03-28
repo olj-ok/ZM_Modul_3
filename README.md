@@ -25,7 +25,8 @@ Dies ist ein interaktives Python-Quizprojekt, das mithilfe von **Tkinter** erste
 
 1. **Repository klonen:**
    ```bash
-   git clone https://github.com/olj-ok/ZM_Modul_3.git
+   git clone https://github.com/olj-ok/ZM_Modul_3.git   (HTTPS)
+   git glone git@github.com:olj-ok/ZM_Modul_3.git   (SSH)
    cd ZM_Modul_3
    ```
 2. **Zum Test Branch wechseln:**
